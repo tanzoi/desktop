@@ -119,9 +119,9 @@ export class TitleBar extends React.Component<ITitleBarProps> {
       >
         {topResizeHandle}
         {leftResizeHandle}
+        {winControls}
         {appIcon}
         {this.props.children}
-        {winControls}
       </div>
     )
   }

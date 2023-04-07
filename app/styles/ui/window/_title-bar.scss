@@ -49,6 +49,7 @@
   // automatically even for borderless window so we only render
   // controls on Windows.
   .window-controls {
+    order: 3;
     flex-grow: 0;
     flex-shrink: 0;
     margin-left: auto;
